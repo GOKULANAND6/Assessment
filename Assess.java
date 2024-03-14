@@ -1,3 +1,5 @@
+import java.lang.Math;  //import statement included by Jeeva
+
 class Assess{
   //insert add
   int addition(int a, int b){
@@ -8,11 +10,11 @@ class Assess{
   }
   //insert subraction
   public int sub(a,b){
-	int subr = b-a;
+	int subr = Math.abs(b-a); //absoulte method included by Jeeva
 	return subr;
   }
   public float sub(a,b){
-	float subr = b-a;
+	float subr = Math.abs(b-a); //abs included by Jeeva
 	return subr;
   }
   //insert multiply
