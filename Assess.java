@@ -1,10 +1,12 @@
 class Assess{
   //insert add
   int addition(int a, int b){
-    return a+b;
+    int c = a+b;
+    return c;
   } 
   float addition(float a, float b){
-    return a+b;
+    float c = a+b;
+    return c;
   }
   //insert subraction
   public int sub(a,b){
