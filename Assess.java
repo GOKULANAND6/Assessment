@@ -16,6 +16,12 @@ class Assess{
 	return subr;
   }
   //insert multiply
+  int multiplication(int a, int b{
+	  return (a*b);
+  )
+  float multiplication(float a, float b){
+	  return(a*b);
+  }
   //insert divide
   public static float div(int a, int b){
 	  final float res = a/b;
@@ -32,7 +38,8 @@ class Assess{
     int b = 5;
     float c = 10.0;
     float d = 5.0;
-    //div method calling
+    System.out.println(multiplication(a, b));
+    System.out.println(multiplication(c, d));
     System.out.println(div(a,b));
     System.out.println(div(c,d));
     System.out.println(sub(a,b));
